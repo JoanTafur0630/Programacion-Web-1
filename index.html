@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CLASE LEONARDO</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .container-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            align-self: center;
+            align-content: center;
+        }
+
+        form {
+            border: 1px solid lightgrey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <!-- Add any necessary CSS or JavaScript links here -->
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/logo.png" alt="Logo Pepsi" class="img">
+    </div>
+
+    <div class="container">
+        <form method="post" action="#">
+            <h3>Formulario clase leonardo</h3>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+            <input type="password" name="password" placeholder="Ingrese su contrasena" required>
+            <input type="email" name="email" placeholder="jswididbdn2@gmail.com" required>
+            <input type="reset" name="email" placeholder="jswididbdn2@gmail.com" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
